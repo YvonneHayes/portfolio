@@ -32,5 +32,10 @@
     "presets": [
       "es2015"
     ]
+  },
+  "dependencies": {
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.0"
   }
 }

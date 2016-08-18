@@ -11,7 +11,7 @@ export default function configRoutes($stateProvider, $urlRouterProvider) {
       },
     })
     .state('about', {
-      url: '/about',
+      url: '/about-short',
       views: {
         header: {component:'headerPart'},
         main: { component: 'about' },
@@ -22,6 +22,13 @@ export default function configRoutes($stateProvider, $urlRouterProvider) {
       views: {
         header: {component:'headerPart'},
         main: { component: 'blog' },
+      },
+    })
+    .state('mystory', {
+      url: '/mystory',
+      views: {
+        header: {component:'headerPart'},
+        main: { component: 'mystory' },
       },
     });
 
