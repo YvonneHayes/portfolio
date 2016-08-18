@@ -30,6 +30,13 @@ export default function configRoutes($stateProvider, $urlRouterProvider) {
         header: {component:'headerPart'},
         main: { component: 'mystory' },
       },
+    })
+    .state('work', {
+      url: '/work',
+      views: {
+        header: {component:'headerPart'},
+        main: { component: 'work' },
+      },
     });
 
   $urlRouterProvider.otherwise('/');
