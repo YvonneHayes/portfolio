@@ -1,6 +1,6 @@
 import angular from 'angular';
 import app from './app';
-// import './scss/main.scss';
+import './scss/main.scss';
 import router from './router';
 
 app.config(router);
