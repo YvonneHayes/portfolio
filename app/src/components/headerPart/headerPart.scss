@@ -1,36 +1,3 @@
-// ul, li {
-//   list-style-type: none;
-//   margin: 0;
-//   padding: 0;
-// }
-//
-// .menu {
-//   background: white;
-//   height: 30px;
-//   padding: 0 10px;
-// }
-//
-// .menu > li {
-//   display: inline-block;
-//   width: 100px;
-//   line-height: 30px;
-// }
-//
-// .sub-menu {
-//   position: absolute;
-//   display: none;
-//   background-color: white;
-//   padding: 5px;
-// }
-//
-// .sub-menu > li {
-//   display: block;
-//   cursor: pointer;
-// }
-//
-// li:hover .sub-menu {
-//   display: block;
-// }
 
 /*----------------------------------------------*/
 /*              GENERAL STUFF                   */
@@ -91,20 +58,30 @@
 .menu li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 a {
   text-decoration: none;
 }
 
-#workTab:hover {
-  background-color: pink;
-}
+// #workTab:hover {
+//   background-color: pink;
+//   border-top: 2px solid black;
+//   border-right: 2px solid black;
+//   border-left: 2px solid black;
+//   border-top-left-radius: 20%;
+//   border-top-right-radius: 20%;
+// }
 
 #workTab {
 
-  padding-bottom: 20px;
+  padding: 10px 10px 7px 10px;
+  // border-top: 2px solid black;
+  // border-right: 2px solid black;
+  // border-left: 2px solid black;
+  // border-top-left-radius: 20%;
+  // border-top-right-radius: 20%;
 }
 
 
