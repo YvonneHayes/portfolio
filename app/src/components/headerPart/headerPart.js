@@ -3,18 +3,58 @@ import styles from './headerPart.scss';
 
 export default {
   template,
-  controller() {
-    this.styles = styles;
+  controller: [
+    '$state',
+    function controller($state) {
+      this.styles = styles;
+      this.$state = $state;
 
-    function turnpink(){
-      $('#workTab').mouseover(function (){
-        $('#workTab').css('background-color', 'pink');
-      })
-    };
-    turnpink();
+      if ($state == 'work') {
+        $('#workTab').css('background-color', 'blue');
+      }
+      console.log('this is the', $state);
 
-  }
+
+    },
+  ],
 };
+
+
+
+    // function turnpink(){
+    //   $('#workTab').mouseover(function (){
+    //     $('#workTab').css('background-color', 'pink');
+    //     $('#workTab').css('border-top', '2px solid black');
+    //     $('#workTab').css('border-left', '2px solid black');
+    //     $('#workTab').css('border-top-left-radius', '20%');
+    //     $('#workTab').css('border-right', '2px solid black');
+    //   });
+    // }
+    //
+    // function turnwhite(){
+    //   $('#workTab').mouseleave(function (){
+    //     $('#workTab').css('background-color', 'white');
+    //   });
+    // }
+    //
+    // turnpink();
+    // turnwhite();
+    //
+    // function staypink(){
+    //   $('#workTab').click(function(){
+    //     $('#workTab').css('background-color', 'blue');
+    //     function reallystay(){
+    //       $('#workTab').mouseleave(function (){
+    //         $('#workTab').css('background-color', 'blue');
+    //       });
+    //     }
+    //     reallystay();
+    //   });
+    // }
+    //
+    // staypink();
+
+
 
 
 
