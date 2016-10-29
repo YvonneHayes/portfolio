@@ -17,11 +17,11 @@ export default function configRoutes($stateProvider, $urlRouterProvider) {
         main: { component: 'about' },
       },
     })
-    .state('blog', {
-      url: '/blog',
+    .state('contact', {
+      url: '/contact',
       views: {
         header: {component:'headerPart'},
-        main: { component: 'blog' },
+        main: { component: 'contact' },
       },
     })
     .state('mystory', {

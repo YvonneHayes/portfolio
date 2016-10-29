@@ -1,5 +1,5 @@
-import template from './blog.html';
-import style from './blog.scss';
+import template from './contact.html';
+import style from './contact.scss';
 
 export default {
   template,
