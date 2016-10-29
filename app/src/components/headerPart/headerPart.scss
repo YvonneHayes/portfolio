@@ -91,11 +91,23 @@
 .menu li {
   list-style-type: none;
   display: inline-block;
+  margin-left: 10px;
 }
 
 a {
   text-decoration: none;
 }
+
+#workTab:hover {
+  background-color: pink;
+}
+
+#workTab {
+
+  padding-bottom: 20px;
+}
+
+
 
 /*----------------------------------------------*/
 /*       ANNOYING LOGO  MEDIA QUERIES           */
