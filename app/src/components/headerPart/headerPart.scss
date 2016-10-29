@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
 
 /*----------------------------------------------*/
 /*              GENERAL STUFF                   */
@@ -19,6 +21,7 @@
 /*----------------------------------------------*/
 
 .name {
+  font-family: 'Berkshire Swash', cursive;
   display: inline-block;
   position: absolute;
   left: 5%;

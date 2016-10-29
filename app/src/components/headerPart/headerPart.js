@@ -9,14 +9,16 @@ export default {
       this.styles = styles;
       this.$state = $state;
 
-      // if ($state.name == 'work') {
-      //   $('#workTab').css('background-color', 'blue');
-      // }
-      // console.log('this is the', $state);
-
       if ($state.includes('work')){
         $('#workTab').css('background-color', 'pink');
+        $('#workTab').css('border-top', '2px solid black');
+        $('#workTab').css('border-left', '2px solid black');
+        $('#workTab').css('border-right', '2px solid black');
+        $('#workTab').css('border-top-left-radius', '20%');
+        $('#workTab').css('border-top-right-radius', '20%');
       }
+
+
     },
   ],
 };
@@ -55,15 +57,6 @@ export default {
     // }
     //
     // staypink();
-
-
-
-
-
-
-
-
-
 
 
 // $(document).ready(function(){
