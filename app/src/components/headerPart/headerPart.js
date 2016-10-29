@@ -9,12 +9,14 @@ export default {
       this.styles = styles;
       this.$state = $state;
 
-      if ($state == 'work') {
-        $('#workTab').css('background-color', 'blue');
+      // if ($state.name == 'work') {
+      //   $('#workTab').css('background-color', 'blue');
+      // }
+      // console.log('this is the', $state);
+
+      if ($state.includes('work')){
+        $('#workTab').css('background-color', 'pink');
       }
-      console.log('this is the', $state);
-
-
     },
   ],
 };
