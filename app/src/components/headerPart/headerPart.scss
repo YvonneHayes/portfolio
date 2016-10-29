@@ -36,12 +36,13 @@
 /*              GENERAL STUFF                   */
 /*----------------------------------------------*/
 
-.navbar {
+.headerWrapper {
   display: inline-block;
   position: relative;
   width: 100%;
-  min-height: 55px;
+  min-height: 50px;
   background-color: white;
+  margin-top: 10px;
 }
 
 
@@ -68,6 +69,14 @@
   bottom: -100%;
 }
 
+.logo:hover {
+    width:12%;
+    display: inline-block;
+    position: absolute;
+    left: 44%;
+    bottom: -133%;
+    z-index:999;
+}
 
 /*----------------------------------------------*/
 /*                 NAVIGATION                   */
@@ -86,4 +95,145 @@
 
 a {
   text-decoration: none;
+}
+
+/*----------------------------------------------*/
+/*       ANNOYING LOGO  MEDIA QUERIES           */
+/*----------------------------------------------*/
+
+// for smaller screens
+@media (max-width: 1200px){
+
+  .logo {
+    width: 9%;
+    display: inline-block;
+    position: absolute;
+    left: 45.5%;
+    bottom: -80%;
+  }
+
+  .logo:hover {
+      width:12%;
+      display: inline-block;
+      position: absolute;
+      left: 44%;
+      bottom: -100%;
+      z-index:999;
+  }
+
+}
+
+// for really small screens
+
+@media (max-width: 900px){
+
+  .logo {
+    width: 9%;
+    display: inline-block;
+    position: absolute;
+    left: 45.5%;
+    bottom: -60%;
+  }
+
+  .logo:hover {
+      width:12%;
+      display: inline-block;
+      position: absolute;
+      left: 44%;
+      bottom: -80%;
+      z-index:999;
+  }
+
+}
+
+// for super small screens
+
+@media (max-width: 650px){
+
+  .logo {
+    width: 9%;
+    display: inline-block;
+    position: absolute;
+    left: 45.5%;
+    bottom: -40%;
+  }
+
+  .logo:hover {
+      width:12%;
+      display: inline-block;
+      position: absolute;
+      left: 44%;
+      bottom: -55%;
+      z-index:999;
+  }
+
+}
+
+// for larger screens
+
+@media (min-width: 1500px){
+
+  .logo {
+    width: 9%;
+    display: inline-block;
+    position: absolute;
+    left: 45.5%;
+    bottom: -130%;
+  }
+
+  .logo:hover {
+      width:12%;
+      display: inline-block;
+      position: absolute;
+      left: 44%;
+      bottom: -150%;
+      z-index:999;
+  }
+
+}
+
+// for even larger screens
+
+@media (min-width: 1800px){
+
+  .logo {
+    width: 9%;
+    display: inline-block;
+    position: absolute;
+    left: 45.5%;
+    bottom: -160%;
+  }
+
+  .logo:hover {
+      width:12%;
+      display: inline-block;
+      position: absolute;
+      left: 44%;
+      bottom: -190%;
+      z-index:999;
+  }
+
+}
+
+// for really large screens
+
+@media (min-width: 2200px){
+
+  .logo {
+    width: 9%;
+    display: inline-block;
+    position: absolute;
+    left: 45.5%;
+    bottom: -200%;
+  }
+
+  .logo:hover {
+      width:12%;
+      display: inline-block;
+      position: absolute;
+      left: 44%;
+      bottom: -220%;
+      z-index:999;
+  }
+
 }
