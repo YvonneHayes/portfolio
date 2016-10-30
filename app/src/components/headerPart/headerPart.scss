@@ -150,6 +150,81 @@
 
 
 /*----------------------------------------------*/
+/*              MEDIA QUERIES                   */
+/*----------------------------------------------*/
+
+@media(min-width: 1800px){
+  .socialMedia {
+    left: 10%;
+  }
+}
+
+
+@media(max-width: 1200px){
+  .socialMedia {
+    left: 15%;
+  }
+}
+
+@media(max-width: 800px){
+  #logoTab {
+    display: none;
+  }
+  .socialMedia{
+    left: 20%;
+  }
+}
+
+@media(max-width: 600px){
+  #logoTab {
+    display: none;
+  }
+
+  .headerWrapper {
+    display: block;
+    background-color: white;
+    margin-top: 10px;
+  }
+
+  .name {
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+
+  .socialMedia {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+
+  .menu li {
+    list-style-type: none;
+    display: block;
+  }
+
+  #workTab {
+    padding: 10px 10px 6px 10px;
+    border: 2px solid black;
+  }
+
+  #aboutTab {
+    padding: 10px 10px 6px 10px;
+    border: 2px solid black;
+  }
+
+  #contactTab {
+    padding: 10px 10px 6px 10px;
+    border: 2px solid black;
+  }
+}
+
+
+/*----------------------------------------------*/
 /*       ANNOYING LOGO  MEDIA QUERIES           */
 /*----------------------------------------------*/
 
