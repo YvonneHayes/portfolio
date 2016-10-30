@@ -14,8 +14,6 @@
   margin-top: 10px;
 }
 
-
-
 /*----------------------------------------------*/
 /*                    NAME                      */
 /*----------------------------------------------*/
@@ -148,7 +146,6 @@
   border-top-right-radius: 20%;
 }
 
-
 /*----------------------------------------------*/
 /*              MEDIA QUERIES                   */
 /*----------------------------------------------*/
@@ -158,7 +155,6 @@
     left: 10%;
   }
 }
-
 
 @media(max-width: 1200px){
   .socialMedia {
@@ -223,7 +219,6 @@
   }
 }
 
-
 /*----------------------------------------------*/
 /*       ANNOYING LOGO  MEDIA QUERIES           */
 /*----------------------------------------------*/
@@ -251,7 +246,6 @@
 }
 
 // for really small screens
-
 @media (max-width: 900px){
 
   .logo {
@@ -274,7 +268,6 @@
 }
 
 // for super small screens
-
 @media (max-width: 650px){
 
   .logo {
@@ -297,7 +290,6 @@
 }
 
 // for larger screens
-
 @media (min-width: 1500px){
 
   .logo {
@@ -322,7 +314,6 @@
 // for even larger screens
 
 @media (min-width: 1800px){
-
   .logo {
     width: 9%;
     display: inline-block;
@@ -343,7 +334,6 @@
 }
 
 // for really large screens
-
 @media (min-width: 2200px){
 
   .logo {
@@ -362,5 +352,4 @@
       bottom: -220%;
       z-index:999;
   }
-
 }
