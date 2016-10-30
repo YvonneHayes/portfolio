@@ -32,6 +32,22 @@
 }
 
 /*----------------------------------------------*/
+/*             SOCIAL MEDIA ICONS               */
+/*----------------------------------------------*/
+.socialMedia {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  left: 12%;
+  bottom: 4px;
+}
+
+.socialMedia li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/*----------------------------------------------*/
 /*                    LOGO                      */
 /*----------------------------------------------*/
 
@@ -65,10 +81,10 @@
 .menu li {
   list-style-type: none;
   display: inline-block;
-  margin-left: -g5px;
+  margin-left: -5px;
 }
 
-a {
+.menu a {
   text-decoration: none;
   color: brown;
 }
