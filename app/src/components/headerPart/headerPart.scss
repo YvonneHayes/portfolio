@@ -61,20 +61,12 @@
 .menu li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 15px;
+  // margin-left: 15px;
 }
 
 a {
   text-decoration: none;
-}
-
-#workTab:hover {
-  padding: 10px 10px 7px 10px;
-  background-color: pink;
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-  border-top-left-radius: 20%;
+  color: brown;
 }
 
 #workTab {
@@ -84,6 +76,50 @@ a {
   border-left: 2px solid white;
 
 }
+
+#workTab:hover {
+  padding: 10px 10px 7px 10px;
+  background-color: pink;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top-right-radius: 20%;
+}
+
+#aboutTab {
+  padding: 10px 10px 6px 10px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+
+}
+
+#aboutTab:hover {
+  padding: 10px 10px 7px 10px;
+  background-color: orange;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top-right-radius: 20%;
+}
+
+#contactTab {
+  padding: 10px 10px 6px 10px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+
+}
+
+#contactTab:hover {
+  padding: 10px 10px 7px 10px;
+  background-color: lightgreen;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top-right-radius: 20%;
+}
+
 
 
 

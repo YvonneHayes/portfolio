@@ -17,72 +17,23 @@ export default {
         $('#workTab').css('border-top-left-radius', '20%');
         $('#workTab').css('border-top-right-radius', '20%');
       }
-
+      else if ($state.includes('about')) {
+        $('#aboutTab').css('background-color', 'orange');
+        $('#aboutTab').css('border-top', '2px solid black');
+        $('#aboutTab').css('border-left', '2px solid black');
+        $('#aboutTab').css('border-right', '2px solid black');
+        $('#aboutTab').css('border-top-left-radius', '20%');
+        $('#aboutTab').css('border-top-right-radius', '20%');
+      }
+      else if ($state.includes('contact')) {
+        $('#contactTab').css('background-color', 'lightgreen');
+        $('#contactTab').css('border-top', '2px solid black');
+        $('#contactTab').css('border-left', '2px solid black');
+        $('#contactTab').css('border-right', '2px solid black');
+        $('#contactTab').css('border-top-left-radius', '20%');
+        $('#contactTab').css('border-top-right-radius', '20%');
+      }
 
     },
   ],
 };
-
-
-
-    // function turnpink(){
-    //   $('#workTab').mouseover(function (){
-    //     $('#workTab').css('background-color', 'pink');
-    //     $('#workTab').css('border-top', '2px solid black');
-    //     $('#workTab').css('border-left', '2px solid black');
-    //     $('#workTab').css('border-top-left-radius', '20%');
-    //     $('#workTab').css('border-right', '2px solid black');
-    //   });
-    // }
-    //
-    // function turnwhite(){
-    //   $('#workTab').mouseleave(function (){
-    //     $('#workTab').css('background-color', 'white');
-    //   });
-    // }
-    //
-    // turnpink();
-    // turnwhite();
-    //
-    // function staypink(){
-    //   $('#workTab').click(function(){
-    //     $('#workTab').css('background-color', 'blue');
-    //     function reallystay(){
-    //       $('#workTab').mouseleave(function (){
-    //         $('#workTab').css('background-color', 'blue');
-    //       });
-    //     }
-    //     reallystay();
-    //   });
-    // }
-    //
-    // staypink();
-
-
-// $(document).ready(function(){
-//   $('#workTab').mouseover(function(){
-//     $('#workLine').css('background-color', 'pink');
-//   });
-// });
-
-
-
-// $(document).ready(function(){
-//   $('#workTab').one('mouseover', function() {
-//     $('#workTab').css('background-color', 'pink');
-//   });
-// });
-//
-// $(document).ready(function(){
-//   $('#workTab').onclick(function(){
-//     $('#workTab').css('background-color', 'orange');
-//   });
-// });
-
-// var turnPink = function(){
-//   $('#workTab').mouseover(function() {
-//     $('#workTab').css({'background-color':'pink'});
-//   });
-// };
-//
-// turnPink();
