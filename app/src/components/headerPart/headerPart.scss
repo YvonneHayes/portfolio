@@ -38,13 +38,21 @@
   margin: 0;
   display: inline-block;
   position: absolute;
-  left: 12%;
+  left: 11.5%;
   bottom: 4px;
 }
 
 .socialMedia li {
   list-style-type: none;
   display: inline-block;
+}
+
+.socialMedia a {
+  text-decoration: none;
+}
+
+.icon {
+  margin-right: 7px;
 }
 
 /*----------------------------------------------*/
@@ -81,7 +89,7 @@
 .menu li {
   list-style-type: none;
   display: inline-block;
-  margin-left: -5px;
+  margin-left: -4px;
 }
 
 .menu a {
