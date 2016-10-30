@@ -32,8 +32,12 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel'
-      }
-    ]
+      },
+      {
+        test: /\.(jpg|png|gif|svg)$/i,
+        loader: 'url-loader?limit=10000',
+      },
+    ],
   },
   sassLoader: {
     includePaths: [ './src/scss/includes']

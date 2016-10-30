@@ -1,9 +1,9 @@
 import angular from 'angular';
-import app from './angular-app';
-// import './scss/main.scss';
-// import routes from './routes';
+import app from './app';
+import './scss/main.scss';
+import router from './router';
 
-// app.config(routes);
+app.config(router);
 
 app.value('apiUrl', 'http://localhost:9000/api');
 
