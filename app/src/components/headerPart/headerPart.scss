@@ -149,13 +149,20 @@
 .sub-menu {
   position: absolute;
   display: none;
-  background-color: white;
+  bottom: -50px;
+  right: 33.5%;
+  background-color: orange;
   padding: 5px;
+  border: 2px solid black;
 }
 
 .sub-menu > li {
   display: block;
   cursor: pointer;
+}
+
+.sub-menu > li > a {
+  margin-top: 15px;
 }
 
 li:hover .sub-menu {
