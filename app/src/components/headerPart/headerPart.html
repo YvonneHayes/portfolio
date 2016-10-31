@@ -13,9 +13,14 @@
     <a ui-sref="home" id="logoTab"><img src="../../img/logo6.png" alt="logo" class="logo"></a>
     <ul class="menu">
       <li id="workTab"><i class="icon-desktop icon"></i></i><a ui-sref="work" id="workTabText">WORK</a></li>
-      <li id="aboutTab"><i class="icon-female icon"></i><a ui-sref="about ">ABOUT</a></li>
+      <li id="aboutTab"><i class="icon-female icon"></i>
+        <a>ABOUT</a>
+        <ul class="sub-menu">
+          <li><a ui-sref="about">Short&ampSweet</a></li>
+          <li><a ui-sref="mystory">My Story</a></li>
+        </ul>
+      </li>
       <li id="contactTab"><i class="icon-pencil icon"></i><a ui-sref="contact">CONTACT</a></li>
     </ul>
   </div>
-
 </main>
